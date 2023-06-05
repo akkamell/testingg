@@ -47,7 +47,7 @@ function readFile() {
 	let trainer_job=$("#job").value;
 	let d=document.createElement("div");
 	d.setAttribute("class","second-item");
-	d.innerHTML = `<img src=${filename} style='object-fit:cover;'>
+	d.innerHTML = `<img src='${filename}' style='object-fit:cover;'>
                     <div class='child'>
                         <h1>${trainer_name}</h1>
                         <p>${trainer_job}</p>
