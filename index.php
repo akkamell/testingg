@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="servicesStyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body style="background-color: rgb(24, 24, 24);">
+    <div class="progress">
+        <span class="bar"></span>
+    </div>
+    <header>
+    <nav>
+        <div class="nav-container">
+            <div class="img-container">
+                <img id="gymlogo" src="./logo.png" alt="img">
+            </div>
+            <div class="nav-links">
+                <ul class="links">
+                   <li><a href="./home.html">Home</a></li>
+                   <li><a href="./services.html">Services</a></li>
+                   <li><a href="./ourteam.html">Our team</a></li>
+                   <li><a href="#">Classes timtable</a></li>
+                </ul>
+            </div>
+            <div class="last-nav-section">
+               <input type="text" placeholder="Search" id="search-bar">
+               <button onclick="showSearch()"><i class="bi bi-search" style="color:white"></i></button>
+               <a href="#" >Registration</a>
+            </div>
+        </div>
+        </nav>
+        <h1 style="position: absolute; top:30%;right:40%;color: coral;font-size: 5rem;">Services</h1>
+    </header>
+    <section >
+        <div class="first-section">
+            <div class="first-section-text">
+                <p style="color:coral;">WHAT WE DO?</p>
+                <h1 style="color:white;font-weight: 800;margin-top: 10px;margin-bottom: 20px;">PUSH YOUR LIMITS FORWARD</h1>
+            </div>
+            <div class="first-section-container">
+                <div class="container-image"> <img src="./img/services-1.jpg"></div>
+                <div class="container-text">
+                    <h1 class="container-text-header">Personal training</h1>
+                    <p class="container-text-paragraphe"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore facilisis.</p>
+                    <a href="#" class="container-text-link">EXPLORE</a>
+                </div>
+                <div class="container-image"><img src="./img/services-2.jpg"></div>
+                <div  class="container-text">
+                    <h1 class="container-text-header">Personal training</h1>
+                    <p class="container-text-paragraphe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore facilisis.</p>
+                    <a href="#" class="container-text-link">EXPLORE</a>
+                </div>
+                <div class="container-text">
+                    <h1 class="container-text-header">Personal training</h1>
+                    <p class="container-text-paragraphe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore facilisis.</p>
+                    <a href="#" class="container-text-link">EXPLORE</a>
+                </div>
+                <div  class="container-image"><img src="./img/services-3.jpg" ></div>
+                <div class="container-text">
+                    <h1 class="container-text-header" >Personal training</h1>
+                    <p class="container-text-paragraphe">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ut dolore facilisis.</p>
+                    <a href="#" class="container-text-link">EXPLORE</a>
+                </div>
+                <div  class="container-image"><img src="./img/services-4.jpg"></div>
+            </div>
+        </div>
+    </section>
+    <section style="background-color: rgb(30, 30, 30);">
+        <p style="color:coral;font-weight: 900;padding-top: 70px;text-align: center;letter-spacing: 1px;">OUR PLAN</p>
+        <h1 style="color: white; text-align: center;font-weight: 900;margin-top: 10px;margin-bottom: 20px;">CHOOSE YOUR PRICING PLAN</h1>
+        <div class="pricing-plan">
+            <div class="pricing-item">
+                <h1 class="header-text">3 Month </h1>
+                <div>
+                    <h1 class="price-text">$ 39.99</h1>
+                    <p class="price-description">SINGLE CLASS</p>
+                </div>
+                <div class="price-container">
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to month</li>
+                        <li style="text-decoration: line-through;color:red">Unlimited equipments</li>
+                        <li style="text-decoration: line-through; color:red">Personal trainer</li>
+                        <li style="text-decoration: line-through;color:red">No time restriction</li>
+                    </ul>
+                </div>
+                <div class="enroll">
+                    <a href="#">ENROLL NOW</a>
+                </div>
+            </div>
+            <div class="pricing-item">
+                <h1 class="header-text">6 Month</h1>
+                <div>
+                    <h1 class="price-text">$ 59.99</h1>
+                    <p class="price-description">DOUBLE CLASS</p>
+                </div>
+                <div class="price-container">
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Unlimited equipments</li>
+                        <li>Personal trainer</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to month</li>
+                        <li style="text-decoration: line-through;color:red">No time restriction</li>
+                    </ul>
+                </div>
+                <div class="enroll">
+                    <a href="#">ENROLL NOW</a>
+                </div>
+                
+            </div>
+            <div class="pricing-item">
+                <h1 class="header-text">12 Month </h1>
+                <div>
+                    <h1 class="price-text">$ 99.99</h1>
+                    <p class="price-description">MULTIPLE CLASS</p>
+                </div>
+                <div class="price-container">
+                    <ul>
+                        <li>Free riding</li>
+                        <li>Unlimited equipments</li>
+                        <li>Personal trainer</li>
+                        <li>Weight losing classes</li>
+                        <li>Month to month</li>
+                        <li >No time restriction</li>
+                    </ul>
+                </div>
+                <div class="enroll">
+                    <a href="#">ENROLL NOW</a>
+                </div>
+            </div>
+            <?php
+                include("database.php");
+                    $sql="select nbmonth,price from services";
+                    $result=mysqli_query($conn,$sql);
+                    if(mysqli_num_rows($result)>0){
+                        while($row=mysqli_fetch_assoc($result)){
+                            echo"<div class='pricing-item'>
+                            <h1 class='header-text'>$row[nbmonth] Month </h1>
+                            <div>
+                            <h1 class='price-text'>$row[price] \$</h1>
+                            <p class='price-description'>MULTIPLE CLASS</p>
+                            </div>
+                            <div class='price-container'>
+                            <ul>
+                            <li>Free riding</li>
+                            <li>Unlimited equipments</li>
+                            <li>Personal trainer</li>
+                            <li>Weight losing classes</li>
+                            <li>Month to month</li>
+                            <li >No time restriction</li>
+                            </ul>
+                            </div>
+                            <div class='enroll'>
+                            <a href='#'>ENROLL NOW</a>
+                            </div>
+                            </div>";
+                        }
+                    }
+                    else{
+
+                    }
+
+                 ?>
+        </div>
+    </section>
+    <footer style="background-color: black;padding-top: 20px;padding-left: 30px;padding-right: 30px;color:white">
+        <a href="#" style="font-size:2rem;"><i class="bi bi-arrow-up-circle">Back To Top</i></a>
+        <div class="footer-container">
+            <div class="footer-item1">
+                <img src="./logo.png" alt="logo" style="margin-bottom: 10px;">
+                <p style="font-weight: 700;">this website is for anyone that want to know more about our gym <br>moreover this website can offer to you pricing plans <br>for our gym</p>
+            </div>
+            <div class="footer-item1">
+                <ol >
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./services.html">Services</a></li>
+                <li><a href="./ourteam.html">Our team</a></li>
+                <li><a href="#">Classes timtable</a></li>
+                <li><a href="#">Registration</a></li>
+                <li><a href="./feedback.html">Feedback</a></li>
+                <li><a href="#">Manager Section</a></li>
+                </ol>
+            </div>
+            <div class="footer-item1">
+                <h1 style="margin-bottom: 10px;">Tips & Guides</h1>
+                <p>Physical fitness may help prevent depression, anxiety</p>
+                <p style="opacity: 0.2;margin-bottom: 5px;">3 min read | 20 Comment</p>
+                <hr style="opacity: 0.2;">
+                <p style="margin-top: 10px;">Fitness: The best exercise to lose belly fat and tone up...</p>
+                <p  style="opacity: 0.2;">6 min read | 10 Comment</p>
+            </div>
+        </div>
+    <hr >
+    <p style="text-align: center; color:wheat;padding-top: 30px;padding-bottom: 30px;">Copyright ©2023 All rights reserved | This template is made with <span style="color: red;font-size: 2rem;"> &hearts;</span>  by <span style="color: red;">Antoine </span>and <span style="color: red;">Georges </span></p>
+     </footer>
+
+    <script src="sercicesScript.js"></script>
+</body>
+</html>
