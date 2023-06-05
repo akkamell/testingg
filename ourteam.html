@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ourteamstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+</head>
+<body style="background-color: rgb(12, 12, 12);">
+    <div class="progress">
+        <span class="bar"></span>
+    </div>
+    <header>
+        <nav>
+            <div class="nav-container">
+                <div class="img-container">
+                    <img id="gymlogo" src="./logo.png" alt="img">
+                </div>
+                <div class="nav-links">
+                    <ul class="links">
+                       <li><a href="./home.html">Home</a></li>
+                       <li><a href="./services.html">Services</a></li>
+                       <li><a href="./ourteam.html">Our team</a></li>
+                       <li><a href="./class.html">Classes timetable</a></li>
+                    </ul>
+                </div>
+                <div class="last-nav-section">
+                   <input type="text" placeholder="Search" id="search-bar">
+                   <button onclick="showSearch()"><i class="bi bi-search" style="color:white"></i></button>
+                   <a href="./codebode.html" >Registration</a>
+                </div>
+            </div>
+            </nav>
+            <h1 style="position: absolute; top:30%;right:40%;color: coral;font-size: 4rem;">Our Team</h1>
+        </header>
+        <section style="margin-left:5%;margin-right: 5%;">
+            <div class="first-container">
+                <div class="first-container-item">
+                    <p style="color: coral; font-weight: 900;">OUR TEAM</p>
+                    <h1 style="color: white; margin-top:10px; font-weight: 900;font-size: 2rem;letter-spacing: -2;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">TRAIN WITH EXPERTS</h1>
+                </div>
+                <div class="second-container-item">
+                    <a href="./codebode.html">Registration</a>
+                </div>
+            </div>
+            <div class="second-container">
+                <div class="second-item"><img src="./img/team-1.jpg" style="object-fit:cover;">
+                    <div class="child">
+                        <h1>AJ LEE</h1>
+                        <p>GYM TRAINER</p>
+                    </div>
+                </div>
+                <div class="second-item"><img src="./img/team-2.jpg" style="object-fit:cover;">
+                    <div class="child">
+                        <h1>KOBE BRYANT</h1>
+                        <p>GYM TRAINER</p>
+                    </div></div>
+                <div class="second-item"><img src="./img/team-3.jpg" style="object-fit:cover;">
+                    <div class="child">
+                        <h1>BROCK LESNAR</h1>
+                        <p>GYM TRAINER</p>
+                    </div></div>
+                <div class="second-item"><img src="./img/team-5.jpg" style="object-fit:cover;">
+                    <div class="child">
+                        <h1>Athart Rachel</h1>
+                        <p>GYM TRAINER</p>
+                    </div></div>
+                <div class="second-item"><img src="./img/team-6.jpg" style="object-fit:cover;">
+                    <div class="child">
+                        <h1>ALEXA BLISS</h1>
+                        <p>GYM TRAINER</p>
+                    </div></div>
+                    <div class="second-item"><img src="./img/team-4.jpg" style="object-fit:cover;">
+                        <div class="child">
+                            <h1>WADIH EL SHEIKH</h1>
+                            <p>GYM SINGER</p>
+                        </div>
+					</div>
+			</div>
+        </section>
+    <input type="file" name="file" id="file">
+	<br>
+	<br>
+	<!--<input type="range" min="0" max="100" value="50" id="rg">-->
+	<div><span style="color:coral">Name: </span><input type="text" id="name"></div>
+	<br>
+	<div><span style="color:coral">JOB: </span><input type="text" id="job"></div>
+	<div><button onclick="readFile()" style="background-color:coral;margin-top:10px;height:40px;width:20%">Add trainer</button></div>
+            
+        <footer style="background-color: black;padding-top: 20px;padding-left: 30px;padding-right: 30px;color:white">
+            <a href="#" style="font-size:2rem;"><i class="bi bi-arrow-up-circle">Back To Top</i></a>
+            <div class="footer-container">
+                <div class="footer-item1">
+                    <img src="./logo.png" alt="logo" style="margin-bottom: 10px;">
+                    <p style="font-weight: 700;">this website is for anyone that want to know more about our gym <br>moreover this website can offer to you pricing plans <br>for our gym</p>
+                </div>
+                <div class="footer-item1">
+                    <ol >
+                    <li><a href="./home.html">Home</a></li>
+                    <li><a href="./services.html">Services</a></li>
+                    <li><a href="./ourteam.html">Our team</a></li>
+                    <li><a href="./class.html">Classes timetable</a></li>
+                    <li><a href="./codebode.html">Registration</a></li>
+                    <li><a href="./feedback.html">Feedback</a></li>
+                    <li><a href="./manager.php">Manager Section</a></li>
+                    </ol>
+                </div>
+                <div class="footer-item1">
+                    <h1 style="margin-bottom: 10px;">Tips & Guides</h1>
+                    <p>Physical fitness may help prevent depression, anxiety</p>
+                    <p style="opacity: 0.2;margin-bottom: 5px;">3 min read | 20 Comment</p>
+                    <hr style="opacity: 0.2;">
+                    <p style="margin-top: 10px;">Fitness: The best exercise to lose belly fat and tone up...</p>
+                    <p  style="opacity: 0.2;">6 min read | 10 Comment</p>
+                </div>
+            </div>
+        <hr >
+        <p style="text-align: center; color:wheat;padding-top: 30px;padding-bottom: 30px;">Copyright ©2023 All rights reserved | This template is made with <span style="color: red;font-size: 2rem;"> &hearts;</span>  by <span style="color: red;">Antoine </span>and <span style="color: red;">Georges </span></p>
+         </footer>
+        <script src="ourteamScript.js"></script>
+</body>
+</html>
