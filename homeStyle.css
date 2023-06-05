@@ -19,7 +19,7 @@
     background-image: linear-gradient(90deg,black,coral,rgb(247, 89, 32),red);
 }
 body{
-    background-image:url('./hero-1.jpg');
+    background-image:url('hero-1.jpg');
     background-size: 100% 820px;
     background-repeat: no-repeat;
 }
